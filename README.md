@@ -65,7 +65,7 @@ bot.SendMessage(channel_id, text_message)
 
 Delete message from channel
 ```javascript
-bot.DeleteMessage(channel_id, limit)
+bot.DeleteMessage(channel_id, message_id)
 
 ```
 
