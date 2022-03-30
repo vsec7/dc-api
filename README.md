@@ -9,7 +9,7 @@ A Node.js simple wrapper for the SelfBot Discord API
 
 ## • Installation
 
-Latest version: 1.0.0
+Latest version: 1.0.2
 
 ```bash
 npm install dc-api
@@ -61,6 +61,14 @@ bot.SendMessage(channel_id, text_message)
 
 ```
 
+- ***ReplyMessage()***
+
+Reply message to channel
+```javascript
+bot.ReplyMessage(channel_id, message_id, text_message)
+
+```
+
 - ***DeleteMessage()***
 
 Delete message from channel
@@ -85,4 +93,8 @@ bot.LeaveGuild(guild_id)
 
 ```
 
-Donation : viloid.sol (my solana wallet address)
+## Donation : 
+
+Solana Address: viloid.sol
+
+ETH/BSC Address: 0xd3de361b186cc2Fc0C77764E30103F104a6d6D07
